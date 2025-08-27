@@ -9,16 +9,17 @@ const Header = () => {
                     <p> New :AI feature Integrated </p>
                     <img src={assets.star_icon} alt='' classname='w-2.5' />
                 </div>
-                <h1 className=' text -3xl sm:text-6xl font-semibold sm:leading-16 text-grey-700'>Your Own <span className='text-primary'>Blogging </span > <br/> Platform</h1>
-                <p className='my-6 sm:my-8 max-w-2xl m-auto max-sm:text-xs text-grey-500'>This is your space to think out loud, to share what matters, and to write without filters. Whether it's one word or a thousand, your story starts right here.</p>
+                <h1 className=' text -3xl sm:text-6xl font-semibold sm:leading-16 text-gray-700'>Your Own <span className='text-primary'>Blogging </span > <br/> Platform</h1>
+                <p className='my-6 sm:my-8 max-w-2xl m-auto max-sm:text-xs text-gray-500'>This is your space to think out loud, to share what matters, and to write without filters. Whether it's one word or a thousand, your story starts right here.</p>
                 
-                <form className='flex justify-between max-w-lg max-sm:scale-75 mx-auto border  border-grey-300 bg-white rounded-2xl overflow-hidden '>
+                <form className='flex justify-between  max-w-lg max-sm:scale-75 mx-auto border  border-gray-300 bg-white rounded-xl overflow-hidden'>
 
-                   <input type ="text"placeholder='Search For Blog 'required className='w-full pl-4 outline-none'/>
+                   <input type ="text"placeholder='Search For Blog 'required className='flex-1 w-full pl-4 outline-none'/>
                   <button className='bg-primary text-white  px-8 py-2 m-1.5 rounded hover:scale-105 transition-all cursor-pointer' type='submit'>Search</button>      
                     
                  
                 </form>
+                
             </div>
 
 

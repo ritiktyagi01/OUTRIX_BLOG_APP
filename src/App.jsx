@@ -3,6 +3,8 @@ import React from 'react'
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Blog from './pages/Blog'
+import Bloglist from './components/Bloglist'
+import BlogCard from './components/BlogCard'
 
 const App = () => {
   
@@ -11,7 +13,8 @@ const App = () => {
       <Routes>
   
         <Route path='/' element={ <Home />} />
-        <Route path='/Blog' element={<Blog/>} />
+        <Route path='/blog/:id' element={<Blog/>} />
+        
       </Routes>
     </>
   )

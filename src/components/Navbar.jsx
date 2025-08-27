@@ -11,7 +11,7 @@ const Navbar = () => {
         onClick={() => navigate('/admin')}
         className="  flex  items-center justify-center gap-2 rounded-full cursor-pointer bg-primary text-white px-10 py-2.5"
       >
-      Admin Login
+        Admin Login
         <img
           src={assets.arrow}
           alt="login"
